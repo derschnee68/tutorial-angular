@@ -1,0 +1,36 @@
+.content {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 25px;
+}
+
+.sub-sub-title {
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.network {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text {
+    font-size: 15px;
+}
+
+
