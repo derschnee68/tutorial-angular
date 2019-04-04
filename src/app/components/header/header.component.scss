@@ -1,48 +1,57 @@
+/*
+1px => 1 pixel
+% => dépend de la largeur du conteneur (marche que pour la largeur
+vh => espace visible (hauteur)
+vw => espace visible (largeur)
+vmin => plus petite valeur entre largeur et hauteur
+vmax => plus grande valeur entre largeur et hauteur.
+em => taille par rapport à la police (de l'element)
+rem => taille par rapport à la police (de la racine)
+*/
+
 .header {
-    display: flex;
-    background-color: white;
-    width: 100%;
-    height: 200px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    max-width: 1000px;
+    height: 30%;
+    max-height: 200px;
+    margin: 10px auto;
 }
 
 .header-top {
     display: flex;
-    text-align: center;
-    justify-content: center;
+    margin: auto;
+    height: 60%;
+}
 
+.header-top-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 100%;
 }
 
 .header-top-right {
-    display: flex;
+    display: flex;;
     align-items: center;
-    justify-content: center;
-
+    justify-content: space-around;
+    width: 50%;
+    height: 100%;
+    padding: 0 2% 0 5%;
 }
 
-.header-bottom {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
+.input-search {
+    height: 20%;
+    width: 60%;
 }
 
-.searchBar {
-    overflow: hidden;
-    background-color: #e9e9e9;
-    border: none;
-    float: none;
-    padding: 5px 10px 5px 10px;
-    border-radius: 15px;
+.little-image {
+    height: 63px;
+    width: 93px;
 }
 
-.part {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
+.big-image {
+    height: 63px;
+    width: 360px;
 }
 
 .fa {
@@ -56,5 +65,31 @@
     background: #9b9b9b;
 }
 
+.header-bottom {
+    display: flex;
+    height: 40%;
+    //background-color: black;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.menu {
+    display: flex;
+}
 
+.menu-image {
+    height: 50px;
+    width: 50px;
+}
+
+.menu-text {
+    display: block;
+    margin: auto;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.menu-text-title {
+    font-size: 1.2em;
+    color: #0065ff;
+}
