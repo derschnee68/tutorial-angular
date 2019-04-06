@@ -1,36 +1,58 @@
+@import '/~src/variables';
+
+.article {
+    background-color: $article-background-color;
+}
+
 .content {
-    margin-left: 20%;
-    margin-right: 20%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    max-width: $article-width;
+    margin: auto;
+}
+
+.content-text-space {
+    background-color: white;
+    padding-top: 30px;
+}
+.image-plane {
+    width: 100%;
+    height: 430px;
+    padding-top: 30px;
 }
 
 .title {
     text-align: center;
-    font-size: 40px;
+    width: $article-width * 4 / 5;
+    margin: auto;
     font-weight: bold;
+    font-size: 2.5em;
 }
 
 .sub-title {
     text-align: center;
-    font-size: 25px;
-}
-
-.sub-sub-title {
-    font-size: 20px;
-    color: blue;
-    font-weight: bold;
-    align-self: flex-start;
-}
-
-.network {
-    flex-direction: row;
-    justify-content: space-between;
+    width: $article-width * 3 / 4;
+    margin: auto;
+    font-size: 1.8em;
 }
 
 .text {
-    font-size: 15px;
+    width: $article-width * 3 / 4;
+    margin: auto;
+    padding-top: 30px;
+    font-size: 1.3em;
 }
 
+.sub-sub-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: $article-sub-sub-title-color;
+    padding: 20px 0;
+}
 
+.text-part {
+    padding-bottom: 20px;
+}
+
+hr {
+    width: $article-width / 8;
+    margin: 30px auto;
+}

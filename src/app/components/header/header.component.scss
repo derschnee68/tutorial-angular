@@ -55,12 +55,12 @@ pour les couples : nth(couple, position)
 @import '/~src/variables';
 
 .header {
-    width: $header-max-width;
+    width: $header-width;
     margin: 10px auto;
 }
 
 .header-top {
-    width: $header-max-width;
+    width: $header-width;
     display: flex;
     margin: auto;
     padding: 10px 0;
@@ -70,7 +70,7 @@ pour les couples : nth(couple, position)
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: $header-max-width / 2;
+    width: $header-width / 2;
 }
 
 .header-top-right {
@@ -78,7 +78,7 @@ pour les couples : nth(couple, position)
     align-items: center;
     justify-content: space-between;
     padding: 0 0 0 20px;
-    width: $header-max-width / 2;
+    width: $header-width / 2;
 }
 
 .input-search {
@@ -109,7 +109,7 @@ pour les couples : nth(couple, position)
 }
 
 .header-bottom {
-    width: $header-max-width;
+    width: $header-width;
     display: flex;
     justify-content: space-between;
     align-items: center;
