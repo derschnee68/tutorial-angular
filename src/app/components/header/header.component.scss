@@ -1,0 +1,161 @@
+.header {
+  height: 85px;
+  padding-top: 18px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-left {
+  padding-top: 7px;
+  width: 556px;
+  display: flex;
+}
+
+.header-right {
+  width: 404px;
+  display: block;
+}
+
+.marianne {
+  margin-right: 24px;
+}
+
+.header-top-right {
+  height: 27px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.language-selection{
+  font-size: 11px;
+  color: #757575;
+  text-decoration: none;
+}
+
+.language-selection:hover {
+  text-decoration: underline;
+}
+
+.header-bottom-right {
+  display: flex;
+  align-items: center;
+}
+
+.searchbar_block {
+  width: 260px;
+  height: 39px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #EFEEEC;
+}
+
+.searchbar {
+  width: 200px;
+  padding-left: 15px;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 0.875em;
+  background-color: #EFEEEC;
+  border: none;
+}
+
+.searchbar-icon{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: none;
+  background-image: url("../../../assets/search-solid.svg");
+  text-indent: -130000px;
+  -webkit-appearance: none;
+  cursor: default;
+}
+
+.searchbar-icon:hover{
+  cursor: pointer;
+}
+
+.network-icons {
+  display: flex;
+  width: 140px;
+  margin-left: 6px;
+  justify-content: space-around;
+}
+
+.regular-icon {
+
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  background-color: #757575;
+}
+
+.regular-logo{
+  width: 15px;
+  height: 15px;
+  filter: invert(100%) sepia(0%) saturate(7476%) hue-rotate(344deg) brightness(110%) contrast(103%);
+}
+
+.twitter:hover {
+  background-color: #43C7F7;
+}
+
+.facebook:hover {
+  background-color: #4267B2;
+}
+
+.instagram:hover {
+  background-color: #36455C;
+}
+
+.nav {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  border-right:1px solid #EFEEEC;
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav-image{
+  width: 40px;
+  height: 40px;
+  filter: invert(26%) sepia(98%) saturate(951%) hue-rotate(175deg) brightness(101%) contrast(93%);
+}
+
+.nav-text{
+  padding: 5px 25px 5px 10px;
+  font-size: 15px;
+}
+
+.tab-title {
+  display: block;
+  color: #0B6BA8;
+}
+
+.tab:hover{
+  color: #0B6BA8;
+}
+
+.actions {
+  margin: 0 14px;
+}
+
+.gouv {
+  margin-right:14px;
+}
+
+.partagez{
+  border-right: none;
+}
